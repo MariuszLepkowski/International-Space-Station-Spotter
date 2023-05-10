@@ -6,7 +6,6 @@ import time
 
 MY_LAT = "YOUR LATITUDE"
 MY_LONG = "YOUR LONGITUDE"
-MY_COORDINATES = (MY_LAT, MY_LONG)
 MY_EMAIL = "YOUR EMAIL"
 MY_PASSWORD = "YOUR PASSWORD"
 RECEIVER_EMAIL = "RECEIVER EMAIL"
@@ -62,10 +61,3 @@ while True:
     time.sleep(10)
     if iss_is_over() and is_night():
         send_email()
-
-
-
-
-
-
-
